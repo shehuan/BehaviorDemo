@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BehaviorTest</string>
+
+    <string name="behavior_main_content">com.othershe.behaviortest.mainpage.behavior.MainContentBehavior</string>
+    <string name="behavior_main_header">com.othershe.behaviortest.mainpage.behavior.MainHeaderBehavior</string>
+    <string name="behavior_main_title">com.othershe.behaviortest.mainpage.behavior.MainTitleBehavior</string>
+    <string name="behavior_main_tab">com.othershe.behaviortest.mainpage.behavior.MainTabBehavior</string>
+
+    <string name="behavior_xiami_comment">com.othershe.behaviortest.xiami.behavior.XiamiCommentBehavior</string>
+    <string name="behavior_xiami_title">com.othershe.behaviortest.xiami.behavior.XiamiTitleBehavior</string>
+
+    <string name="behavior_sample_title">com.othershe.behaviortest.test1.SampleTitleBehavior</string>
+
+    <string name="behavior_sample_header">com.othershe.behaviortest.test2.SampleHeaderBehavior</string>
+    <string name="behavior_recyclerview">com.othershe.behaviortest.test2.RecyclerViewBehavior</string>
+
+</resources>

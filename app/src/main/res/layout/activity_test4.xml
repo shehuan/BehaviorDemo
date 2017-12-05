@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/behavior_main_header">
+
+        <com.othershe.behaviortest.helper.NestedLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:background="@mipmap/xiami_header" />
+
+
+        </com.othershe.behaviortest.helper.NestedLinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_behavior="@string/behavior_xiami_title">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xiami_title_height"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/xiami_title" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:overScrollMode="never"
+        app:layout_behavior="@string/behavior_xiami_comment" />
+
+</android.support.design.widget.CoordinatorLayout>

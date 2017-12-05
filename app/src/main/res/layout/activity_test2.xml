@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.othershe.behaviortest.test2.TestActivity2">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text="Hello World"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_behavior="@string/behavior_sample_header" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/behavior_recyclerview" />
+
+</android.support.design.widget.CoordinatorLayout>
