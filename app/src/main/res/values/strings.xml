@@ -13,5 +13,6 @@
 
     <string name="behavior_sample_header">com.othershe.behaviortest.test2.SampleHeaderBehavior</string>
     <string name="behavior_recyclerview">com.othershe.behaviortest.test2.RecyclerViewBehavior</string>
+    <string name="behavior_follow_title">com.othershe.behaviortest.extend.FollowTitleBehavior</string>
 
 </resources>
